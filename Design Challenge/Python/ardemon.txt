@@ -1,0 +1,36 @@
+hardware aspects:
+- uses: oled, button, LED, accelerometer, motor, HR monitor
+- pedometer/detect steps
+- detect finger taps on accelerometer 
+- ability to detect tilts to right/left
+- detect throwing using accelerometer
+- ability to buzz motor for specified time duration
+- send HR data to serial as well
+
+software aspects:
+- game:
+	- as this is a prototype we are making, ALL data will be stored on python end to make it easier
+	- Each serial connection is given a set of dummy pokemon which can be leveled up by walking
+	- after certain step thresholds are met, random pokemon spawns and can be collected by user
+	- class structure: 
+		- generic pokemon
+			- inherited by class for type of pokemon
+				- inherited by class for specific pokemon
+	- fighting: user can select from a given moveset, player who depletes enemies' HP completely first wins
+		- gains a certain XP which can go towards maybe leveling up? unimportant feature, TO-DO
+	- can pet/wave at pokemon to increase friendship, which can increase crit rate/accuracy of something
+		- use heart rate monitor for this
+
+playing the game:
+	- thought: unlock the game by using HR sensor to detect your specific heart beat (heart beats have unique patterns. This added functionality can be a fallback if they don't think we are addressing a specific problem).
+	- tilt the device left/right to cycle between pokemon
+		- also use to cycle between pokemon attacks when fighting
+	- throw to collect new pokemon, or to do an attack (depends on situation).
+		- if pokemon detected: catching a pokemon
+		- battle: attack 
+	- finger tap on accelerometer used to select/deselect pokemon
+		- button, accelerometer tap, tilt, HR monitor
+	- button used to lock device (turn off). Can only be unlocked with heart sensor
+	- when any events happen, buzz motor for half a second
+	- light led to show color of pokemon type
+	- oled: display pokemon information, steps
