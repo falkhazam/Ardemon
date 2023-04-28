@@ -1,8 +1,5 @@
-Name: Fahad Alkhazam |
-PID: A16506623 |
- ECE 16 FA22
+Name: Fahad Alkhazam | Arnav Saxena |
 
-Ch.2 Partner : Arnav Saxena | PID: A16821776
 
 ---
 # **Final Project Lab Report**
