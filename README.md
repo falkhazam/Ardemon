@@ -4,8 +4,6 @@ Name: Fahad Alkhazam | Arnav Saxena
 ---
 # **Final Project Lab Report**
 
-_Note: I collaborated with Arnav for Ch.2., however, I worked alone on Ch.1_ 
-
 ## **Lab Objectives** 
 
 >This is it; the final project! In this project, we get to work on a game controller to play the popular game "Space Invaders", and then work on a seperate, unique project. We have to first choose a need that we feel should be addressed, and utilize whatever tools provided to us in this class to solve it. We wanted to address the obesity epidemic by designing a game that requires steps to progress!
@@ -135,11 +133,6 @@ https://www.youtube.com/watch?v=vMgQnQNbGO4
 
 https://youtu.be/lnC-4wcUyzI
 
-## **Division of Labor**
-
->Me and Arnav worked really well in this project, and I could not ask for a better teammate! He focused more on the OOP and Python side of the device, while I focused more on the Arduino and Hardware aspect. 
-
->It was not purely in this manner as he did help me out in the Arduino side by helping  with the toggle detector, and I did help him out in the OOP front by writing parts of the Ardemon characters/ moves algorithm.
 
 ---
 **Thank you for all your help in this  quarter, and I wish you all the best in your future endevours!**
