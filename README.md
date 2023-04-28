@@ -1,4 +1,4 @@
-Name: Fahad Alkhazam | Arnav Saxena |
+Name: Fahad Alkhazam | Arnav Saxena 
 
 
 ---
@@ -146,4 +146,4 @@ https://youtu.be/lnC-4wcUyzI
 
 
 
-_A Lab Report by Fahad Alkhazam_
+_A Lab Report by Fahad Alkhazam & Arnav Saxena_
